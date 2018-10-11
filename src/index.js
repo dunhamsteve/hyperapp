@@ -68,6 +68,7 @@ var updateProperty = function(
         name !== "draggable" &&
         name !== "spellcheck" &&
         name !== "translate" &&
+        name !== "contentEditable" &&
         !isSvg
       ) {
         element[name] = nextValue == null ? "" : nextValue
